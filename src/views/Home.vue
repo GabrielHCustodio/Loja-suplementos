@@ -1,18 +1,19 @@
 <template>
   <div>
     <Header />
-    <h1>HOME</h1>
-    <p>Aqui será a landing page que ira mostrar aos clientes oq somos, oq fazemos e porque fazemos</p>
+    <Cards />
     <router-link to="/products">Conheça nossos produtos</router-link>
   </div>
 </template>
 
 <script>
+import Cards from '@/components/componentsHome/Cards.vue'
 import Header from '@/components/componentsHome/Header.vue'
 
 export default {
   name: 'Home',
   components: {
+    Cards,
     Header
   }
 }
