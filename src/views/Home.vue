@@ -7,14 +7,14 @@
 </template>
 
 <script>
-import Cards from '@/components/componentsHome/Cards.vue'
-import Header from '@/components/componentsHome/Header.vue'
+import Cards from "@/components/componentsHome/Cards.vue";
+import Header from "@/components/componentsHome/Header.vue";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
     Cards,
-    Header
-  }
-}
+    Header,
+  },
+};
 </script>
