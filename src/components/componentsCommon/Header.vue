@@ -12,19 +12,19 @@
       <div class="container-icons">
         <div class="icon-user">
           <router-link to="/user" class="link">
-            <img src="@/assets/icons/icon-user.png" alt="" id="user" />
+            <img src="@/assets/icons/icon-user.png" alt="icon-user" id="user" />
             <p id="msg-user">Bem-vindo, faça seu login ou cadastre-se</p>
           </router-link>
         </div>
         <div class="icon-talk">
           <router-link to="/talk" class="link">
-            <img src="@/assets/icons/icon-talk.png" alt="" id="talk" />
+            <img src="@/assets/icons/icon-talk.png" alt="icon-talk" id="talk" />
             <p id="msg-talk">Fale Conosco, clique aqui</p>
           </router-link>
         </div>
         <div class="icon-shopping">
           <router-link to="/shopping" class="link">
-            <img src="@/assets/icons/icon-shopping.svg" alt="" id="shopping" />
+            <img src="@/assets/icons/icon-shopping.svg" alt="icon-shopping" id="shopping" />
             <p id="msg-shopping">Meu carrinho</p>
           </router-link>
         </div>

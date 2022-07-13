@@ -11,7 +11,33 @@ const routes = [
   {
     path: '/products',
     name: 'products',
-    component: Products
+    component: Products,
+    children: [
+      {
+        path: '/products/muscle',
+        name: 'muscle'
+      },
+      {
+        path: '/products/fight',
+        name: 'fight'
+      },
+      {
+        path: '/products/race',
+        name: 'race'
+      }
+    ]
+  },
+  {
+    path: '/user',
+    name: 'user'
+  },
+  {
+    path: '/talk',
+    name: 'talk'
+  },
+  {
+    path: '/shopping',
+    name: 'shopping'
   }
 ]
 

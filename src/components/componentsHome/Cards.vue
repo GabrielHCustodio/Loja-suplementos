@@ -4,21 +4,27 @@
 
     <div class="cards">
       <div class="container-card">
-        <div class="card-bg muscle">
-          <p class="name-act">MUSCULAÇÃO</p>
-        </div>
+        <router-link to="/products/muscle">
+          <div class="card-bg muscle">
+            <p class="name-act">MUSCULAÇÃO</p>
+          </div>
+        </router-link>
       </div>
 
       <div class="container-card">
-        <div class="card-bg fight">
-          <p class="name-act">LUTAS</p>
-        </div>
+        <router-link to="/products/fight">
+          <div class="card-bg fight">
+            <p class="name-act">LUTAS</p>
+          </div>
+        </router-link>
       </div>
 
       <div class="container-card">
-        <div class="card-bg race">
-          <p class="name-act">CORRIDA</p>
-        </div>
+        <router-link to="/products/race">
+          <div class="card-bg race">
+            <p class="name-act">CORRIDA</p>
+          </div>
+        </router-link>
       </div>
     </div>
   </div>
@@ -56,6 +62,12 @@ export default {
   margin-right: 10px;
   width: 100%;
   max-width: 475px;
+  overflow: hidden;
+}
+
+.center .cards .container-card a {
+  outline: none;
+  text-decoration: none;
 }
 
 .center .cards .container-card .card-bg {
@@ -64,26 +76,33 @@ export default {
   cursor: pointer;
 }
 
-.muscle {
+.center .cards .container-card .muscle {
   background-image: url("@/assets/bg-card/muscle.jpg");
 }
 
-.fight {
+.center .cards .container-card .fight {
   background-image: url("@/assets/bg-card/fight.webp");
 }
 
-.race {
+.center .cards .container-card .race {
   background-image: url("@/assets/bg-card/race.webp");
 }
 
-.muscle,
-.fight,
-.race {
+.center .cards .container-card .muscle,
+.center .cards .container-card .fight,
+.center .cards .container-card .race {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  transition: all 0.3s;
+}
+
+.center .cards .container-card:hover .muscle,
+.center .cards .container-card:hover .fight,
+.center .cards .container-card:hover .race {
+  transform: scale(1.1);
+  max-width: 100%;
 }
 
 .center .cards .container-card .card-bg .name-act {
@@ -92,10 +111,9 @@ export default {
   justify-content: flex-start;
   width: 100%;
   height: 100%;
-  padding: 0 0 20px 20px;
+  padding: 0 0 25px 35px;
   font-size: 2rem;
   font-weight: bolder;
   color: #f9f9f9;
 }
-
 </style>
