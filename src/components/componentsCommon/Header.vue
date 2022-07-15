@@ -1,5 +1,4 @@
 <template>
-  <div class="fixed">
     <div class="container-msg">
       <h4 class="msg">Somos referência em <b>NUTRIÇÃO ESPORTIVA</b></h4>
     </div>
@@ -13,7 +12,7 @@
         <div class="icon-user">
           <router-link to="/user" class="link">
             <img src="@/assets/icons/icon-user.png" alt="icon-user" id="user" />
-            <p id="msg-user">Bem-vindo, faça seu login ou cadastre-se</p>
+            <p id="msg-user">Bem-vindo, faça seu login</p>
           </router-link>
         </div>
         <div class="icon-talk">
@@ -30,20 +29,15 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
 export default {
-  name: "Header",
+  name: "HeaderPg",
 };
 </script>
 
 <style scoped>
-.fixed {
-  position: fixed;
-  width: 100%;
-}
 .container-msg {
   display: flex;
   align-items: center;

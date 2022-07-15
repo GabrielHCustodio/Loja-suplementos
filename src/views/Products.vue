@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <header-pg />
     <h1>PRODUTOS</h1>
     <p>
       Está pagina mostrará nossos produtos e se preciso trará informações mais
@@ -12,11 +12,15 @@
 </template>
 
 <script>
-import Header from "@/components/componentsCommon/Header.vue"
+import HeaderPg from "@/components/componentsCommon/Header.vue"
 export default {
   name: "Products",
   components: {
-    Header
+    HeaderPg
   },
 };
 </script>
+
+<style scoped>
+
+</style>

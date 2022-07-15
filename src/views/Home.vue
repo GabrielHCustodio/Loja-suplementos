@@ -1,28 +1,39 @@
 <template>
   <div class="center">
-    <Header />
-    <Cards />
-    <Goals />
+    <div class="fixed">
+      <header-pg />
+    </div>
+    <cards style="z-index: 1"/>
+    <goals />
     <router-link to="/products" id="products">Conheça nossos produtos</router-link>
+    <email />
   </div>
 </template>
 
 <script>
 import Cards from "@/components/componentsHome/Cards.vue";
+import Email from "@/components/componentsHome/Email.vue"
 import Goals from "@/components/componentsHome/Goals.vue"
-import Header from "@/components/componentsCommon/Header.vue"
+import HeaderPg from "@/components/componentsCommon/Header.vue"
 
 export default {
   name: "Home",
   components: {
     Cards,
     Goals,
-    Header,
+    HeaderPg,
+    Email,
   },
 };
 </script>
 
 <style scoped>
+.fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 2
+}
+
 #products {
   width: 400px;
   height: 50px;

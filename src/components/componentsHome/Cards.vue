@@ -28,6 +28,7 @@
       </div>
     </div>
   </div>
+  <hr>
 </template>
 
 <script>
@@ -39,7 +40,7 @@ export default {
 <style scoped>
 .center {
   width: 100%;
-  height: 100%;
+  height: 670px;
 }
 
 .center #msg {
@@ -66,14 +67,12 @@ export default {
 }
 
 .center .cards .container-card a {
-  outline: none;
   text-decoration: none;
 }
 
 .center .cards .container-card .card-bg {
   height: 100%;
   width: 100%;
-  cursor: pointer;
 }
 
 .center .cards .container-card .muscle {
@@ -102,7 +101,6 @@ export default {
 .center .cards .container-card:hover .fight,
 .center .cards .container-card:hover .race {
   transform: scale(1.1);
-  max-width: 100%;
 }
 
 .center .cards .container-card .card-bg .name-act {
@@ -115,5 +113,10 @@ export default {
   font-size: 2rem;
   font-weight: bolder;
   color: #f9f9f9;
+}
+
+hr {
+  background-color: #ccc;
+  width: 100%;
 }
 </style>
