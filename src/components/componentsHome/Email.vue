@@ -22,7 +22,7 @@ export default {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: 30px 0;
+    margin-top: 30px;
     width: 100%;
     height: 100px;
     background-color: #d20a0a;

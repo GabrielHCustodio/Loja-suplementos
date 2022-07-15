@@ -7,12 +7,14 @@
     <goals />
     <router-link to="/products" id="products">Conheça nossos produtos</router-link>
     <email />
+    <footer-pg />
   </div>
 </template>
 
 <script>
 import Cards from "@/components/componentsHome/Cards.vue";
 import Email from "@/components/componentsHome/Email.vue"
+import FooterPg from "@/components/componentsHome/Footer.vue"
 import Goals from "@/components/componentsHome/Goals.vue"
 import HeaderPg from "@/components/componentsCommon/Header.vue"
 
@@ -20,9 +22,10 @@ export default {
   name: "Home",
   components: {
     Cards,
+    Email,
+    FooterPg,
     Goals,
     HeaderPg,
-    Email,
   },
 };
 </script>
