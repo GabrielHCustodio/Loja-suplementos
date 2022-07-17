@@ -38,10 +38,18 @@
 
             <div class="social">
                 <p>Siga nossas redes sociais</p>
-                <img class="links" src="https://img.icons8.com/fluency/40/000000/facebook-new.png"/>
-                <img class="links" src="https://img.icons8.com/color/40/000000/instagram-new--v1.png"/>
-                <img class="links" src="https://img.icons8.com/color/40/000000/twitter--v1.png"/>
-                <img class="links" src="https://img.icons8.com/color/40/000000/youtube-play.png"/>
+                <a class="links" href="">
+                    <img src="https://img.icons8.com/fluency/40/000000/facebook-new.png"/>
+                </a>
+                <a class="links" href="">
+                    <img src="https://img.icons8.com/color/40/000000/instagram-new--v1.png"/>
+                </a>
+                <a class="links" href="">
+                    <img src="https://img.icons8.com/color/40/000000/twitter--v1.png"/>
+                </a>
+                <a class="links" href="">
+                    <img src="https://img.icons8.com/color/40/000000/youtube-play.png"/>
+                </a>
             </div>
         </div>
     </div>

@@ -40,6 +40,8 @@ export default {
 .container-goals {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 
@@ -50,6 +52,7 @@ export default {
   justify-content: center;
   margin-left: 30px;
   margin-right: 30px;
+  margin-top: 15px;
 }
 
 .container-goal .goal {

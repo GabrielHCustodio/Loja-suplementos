@@ -1,4 +1,5 @@
 <template>
+  <div class="center">
     <div class="container-msg">
       <h4 class="msg">Somos referência em <b>NUTRIÇÃO ESPORTIVA</b></h4>
     </div>
@@ -29,6 +30,7 @@
         </div>
       </div>
     </div>
+    </div>
 </template>
 
 <script>
@@ -42,7 +44,8 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40px;
+  height: 30px;
+  width: 100%;
   background-color: #0a0a0a;
 }
 
@@ -57,15 +60,11 @@ export default {
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: #981010;
   height: 90px;
   width: 100%;
 }
-.container .container-logo {
-  width: 50%;
-}
-
 .container .container-logo h1 {
   color: #f9f9f9;
   padding-left: 100px;
@@ -75,7 +74,6 @@ export default {
   display: flex;
   align-items: center;
   flex-direction: row;
-  width: 50%;
   justify-content: space-evenly;
 }
 
@@ -99,5 +97,27 @@ export default {
   width: 100px;
   color: #f9f9f9;
   margin-left: 10px;
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+  }
+
+  .container .container-logo h1 {
+    padding: 0;
+  }
+
+  .container .container-icons {
+    margin-top: 30px;
+  }
+
+  .container .container-icons .link {
+    margin: 0 10px;
+  }
 }
 </style>

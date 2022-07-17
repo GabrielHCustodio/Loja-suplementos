@@ -119,4 +119,12 @@ hr {
   background-color: #ccc;
   width: 100%;
 }
+
+@media screen and (max-width: 780px) {
+  .center #msg {
+    margin-top: 190px;
+    text-align: center;
+    padding: 0 20px;
+  }
+}
 </style>
