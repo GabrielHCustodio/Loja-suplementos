@@ -75,6 +75,7 @@ export default {
   align-items: center;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .container .container-icons .link {
@@ -82,6 +83,10 @@ export default {
   width: 100%;
   display: flex;
   align-items: center;
+}
+
+.container .container-icons .link:nth-child(1) {
+  margin-top: 10px;
 }
 
 .container .container-icons .icon-user #user,

@@ -40,7 +40,6 @@ export default {
 <style scoped>
 .center {
   width: 100%;
-  height: 670px;
 }
 
 .center #msg {
@@ -52,17 +51,18 @@ export default {
 .center .cards {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  width: 100vw;
-  height: 412px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .center .cards .container-card {
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 33.3%;
+  width: 27%;
   min-width: 330px;
   overflow: hidden;
+  margin: 10px 10px;
+  height: 412px;
 }
 
 .center .cards .container-card a {
@@ -123,6 +123,18 @@ hr {
 @media screen and (max-width: 780px) {
   .center #msg {
     margin-top: 190px;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  hr {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .center #msg {
+    margin-top: 270px;
     text-align: center;
     padding: 0 20px;
   }

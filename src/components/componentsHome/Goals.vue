@@ -35,6 +35,7 @@ export default {
   margin-top: 20px;
   font-weight: bolder;
   font-size: 2.1rem;
+  text-align: center;
 }
 
 .container-goals {
@@ -106,5 +107,9 @@ hr {
   margin-top: 20px;
   background-color: #ccc;
   width: 100%;
+}
+
+@media screen and (max-width: 332px) {
+
 }
 </style>
