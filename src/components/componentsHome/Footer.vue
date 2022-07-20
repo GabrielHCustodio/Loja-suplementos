@@ -1,18 +1,20 @@
 <template>
     <div class="center">
-        <div class="central-de-atendimento">
-            <h3>Central de atendimento</h3>
-            <ul id="items">
-                <li class="item">Sobre a GH Suplementos</li>
-                <li class="item">Fale Conosco</li>
-                <li class="item">Blog</li>
-                <li class="item">Segurança e Privacidade</li>
-                <li class="item">Formas de Pagamento</li>
-                <li class="item">Política de Troca e Devolução</li>
-                <li class="item">Envio de encomenda</li>
-                <li class="item">Política de Entrega</li>
-                <li class="item">Política de Privacidade</li>
-            </ul>
+        <div class="left">
+            <div class="central-de-atendimento">
+                <h3>Central de atendimento</h3>
+                <ul id="items">
+                    <li class="item">Sobre a GH Suplementos</li>
+                    <li class="item">Fale Conosco</li>
+                    <li class="item">Blog</li>
+                    <li class="item">Segurança e Privacidade</li>
+                    <li class="item">Formas de Pagamento</li>
+                    <li class="item">Política de Troca e Devolução</li>
+                    <li class="item">Envio de encomenda</li>
+                    <li class="item">Política de Entrega</li>
+                    <li class="item">Política de Privacidade</li>
+                </ul>
+            </div>
         </div>
 
         <div class="right">
@@ -71,20 +73,23 @@ export default {
     margin-bottom: 10px;
 }
 
-.center .central-de-atendimento {
+.left {
     width: 45%;
+}
+
+.left .central-de-atendimento {
     margin-left: 0;
 }
 
-.center .central-de-atendimento h3 {
+.left .central-de-atendimento h3 {
     font-size: 1.5rem;
 }
 
-.center .central-de-atendimento #items {
+.left .central-de-atendimento #items {
     margin-top: 8px;
 }
 
-.center .central-de-atendimento #items .item {
+.left .central-de-atendimento #items .item {
     margin-top: 5px;
     font-size: 1.2rem;
     list-style: none;
@@ -132,4 +137,22 @@ export default {
     margin-right: 10px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 780px) {
+    .center {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left .central-de-atendimento #items .item:last-child {
+        margin-bottom: 20px;
+    } 
+}
+
 </style>

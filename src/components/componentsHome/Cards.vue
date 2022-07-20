@@ -28,7 +28,7 @@
       </div>
     </div>
   </div>
-  <hr>
+  <hr />
 </template>
 
 <script>
@@ -52,17 +52,16 @@ export default {
 .center .cards {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
+  justify-content: center;
+  width: 100vw;
   height: 412px;
-  margin-top: 30px;
 }
 
 .center .cards .container-card {
   margin-left: 10px;
   margin-right: 10px;
-  width: 100%;
-  max-width: 475px;
+  width: 33.3%;
+  min-width: 330px;
   overflow: hidden;
 }
 
@@ -93,7 +92,7 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  max-width: 100%;
+  width: 100%;
   transition: all 0.3s;
 }
 
@@ -118,6 +117,7 @@ export default {
 hr {
   background-color: #ccc;
   width: 100%;
+  margin-top: 30px;
 }
 
 @media screen and (max-width: 780px) {

@@ -38,11 +38,12 @@ export default {
 }
 
 #products {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 50px;
   text-align: center;
   padding-top: 6px;
-  margin-top: 30px;
+  margin: 30px;
   font-size: 2rem;
   text-decoration: none;
   background-color: #0a0a0a;
@@ -55,5 +56,13 @@ export default {
   transition: all 0.7s;
   color: #0a0a0a;
   background: #d20a0a;
+}
+
+@media screen and (max-width: 450px) {
+  #products {
+    width: 350px;
+    font-size: 1.7rem;
+    padding-top: 9px;
+  }
 }
 </style>
