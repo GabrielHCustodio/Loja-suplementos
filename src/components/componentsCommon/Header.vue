@@ -50,6 +50,7 @@ export default {
 }
 
 .container-msg .msg {
+  width: 50%;
   color: #f9f9f9;
 }
 
@@ -67,7 +68,6 @@ export default {
 }
 .container .container-logo h1 {
   color: #f9f9f9;
-  padding-left: 100px;
 }
 
 .container .container-icons {
@@ -76,6 +76,7 @@ export default {
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  width: 50%;
 }
 
 .container .container-icons .link {

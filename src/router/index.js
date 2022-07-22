@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/views/Home.vue'
 import Products from '@/views/Products.vue'
+import User from '@/views/User.vue'
+import Login from '@/components/componentsUser/Login.vue'
+import Register from '@/components/componentsUser/Register.vue'
 
 const routes = [
   {
@@ -29,7 +32,19 @@ const routes = [
   },
   {
     path: '/user',
-    name: 'user'
+    name: 'user',
+    component: User,
+    children: [{
+      path: '/login',
+      name: 'login',
+      component: Login
+    },
+    {
+      path: '/sign',
+      name: 'sign',
+      component: Register
+    }
+  ]
   },
   {
     path: '/talk',
