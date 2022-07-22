@@ -3,7 +3,7 @@
     <div class="fixed">
       <header-pg />
     </div>
-    <cards style="z-index: 1"/>
+    <cards />
     <goals />
     <router-link to="/products" id="products">Conheça nossos produtos</router-link>
     <email />

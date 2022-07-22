@@ -34,17 +34,19 @@ const routes = [
     path: '/user',
     name: 'user',
     component: User,
-    children: [{
-      path: '/login',
-      name: 'login',
-      component: Login
-    },
-    {
-      path: '/sign',
-      name: 'sign',
-      component: Register
-    }
-  ]
+    children: [
+      {
+        path: '/user/login', 
+        name: 'login',
+        component: Login
+
+      },
+      {
+        path: '/user/register', 
+        name: 'register',
+        component: Register
+      }
+    ]
   },
   {
     path: '/talk',

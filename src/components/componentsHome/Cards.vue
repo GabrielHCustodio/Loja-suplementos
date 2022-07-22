@@ -40,6 +40,7 @@ export default {
 <style scoped>
 .center {
   width: 100%;
+  z-index: 1;
 }
 
 .center #msg {

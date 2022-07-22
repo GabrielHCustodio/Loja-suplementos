@@ -1,11 +1,11 @@
 <template>
-    <div>
-        <h1>Cadastro</h1>
-    </div>
+  <div class="container">
+    <h1>Cadastrar</h1>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "Register"
-}
+  name: "Register",
+};
 </script>

@@ -11,7 +11,7 @@
 
       <div class="container-icons">
         <div class="icon-user">
-          <router-link to="/user" class="link">
+          <router-link to="/user/login" class="link">
             <img src="@/assets/icons/icon-user.png" alt="icon-user" id="user" />
             <p id="msg-user">Bem-vindo, faça seu login</p>
           </router-link>
@@ -50,7 +50,6 @@ export default {
 }
 
 .container-msg .msg {
-  width: 50%;
   color: #f9f9f9;
 }
 
