@@ -6,7 +6,7 @@
         <p>|</p>
         <router-link :class="['links', borderReg]" to="/user/register">Cadastrar</router-link>
       </div>
-      <div class="form">
+      <div>
         <router-view />
       </div>
     </div>
@@ -54,15 +54,15 @@ export default {
   width: 100%;
   height: 100vh;
   flex-direction: row;
+  justify-content: flex-end;
 }
 
 .center .left {
-  width: 65%;
-  height: 100%;
+  width: 55%;
+  height: 70%;
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
-  padding-left: 150px;
+
 }
 
 .center .left .nav {
@@ -71,6 +71,7 @@ export default {
   justify-content: flex-start;
   align-items: center;
   color: white;
+  margin-left: 20px;
 }
 
 .center .left .nav .links {
