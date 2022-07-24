@@ -57,12 +57,12 @@ export default {
 }
 
 .center .left {
-  width: 60%;
+  width: 65%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  padding-top: 200px;
-  padding-left: 300px;
+  padding-top: 50px;
+  padding-left: 150px;
 }
 
 .center .left .nav {
@@ -107,16 +107,16 @@ export default {
 }
 
 .center .right {
-  width: 40%;
+  width: 35%;
   height: 100%;
   background-color: black;
 }
 
 .container {
-  width: 600px;
-  height: 650px;
+  width: 430px;
   margin-top: 20px;
-  border: 1px solid black;
+  color: white;
+  font-size: 1.1rem;
 }
 
 @keyframes animateLog {
@@ -125,7 +125,7 @@ export default {
   }
 
   100% {
-    width: 55px;
+    width: 53px;
   }
 }
 
