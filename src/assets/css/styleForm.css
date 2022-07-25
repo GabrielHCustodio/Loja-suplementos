@@ -1,0 +1,46 @@
+.form {
+    padding: 20px;
+    position: relative;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.label {
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+.container-input .input {
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid rgba(249, 249, 249, 0.5);
+    background-color: transparent;
+    outline: none;
+    color: #f9f9f9;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-top: -25px;
+}
+
+.container-input .input-data-info {
+    margin-top: -5px;
+    border-bottom: 2px solid rgba(249, 249, 249, 1);
+    transition: 1s linear;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 80px;
+    position: absolute;
+}
+
+.social #google {
+    margin-left: 8px;
+    cursor: pointer;
+}

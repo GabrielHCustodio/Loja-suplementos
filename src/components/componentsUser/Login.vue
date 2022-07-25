@@ -10,19 +10,16 @@
                     <label class="label">Senha</label>
                     <input id="pass" class="input" type="password" v-model="password" @focus="checkPass">
                 </div>
-
                 <div class="rec">
                     <router-link to="/">Esqueci minha senha</router-link>
                     <router-link to="/">Esqueci meu nome de usuário</router-link>
                 </div>
-
                 <div class="social">
                     <p id="par">Se preferir, entre com uma rede social: </p>
                     <img id="google" src="https://img.icons8.com/ios-glyphs/30/000000/google-logo--v1.png"/>
                 </div>
-
-                <router-link id="login" to="/">Entrar</router-link>
             </form>
+            <router-link id="login" to="/">Entrar</router-link>
         </div>
     </div>
     
@@ -56,39 +53,7 @@ export default {
 </script>
 
 <style scoped>
-.form {
-    padding: 20px;
-    position: relative;
-}
-
-.container-input {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-}
-
-.label {
-    margin-bottom: 5px;
-    font-weight: bolder;
-}
-
-.container-input .input {
-    height: 30px;
-    border: none;
-    border-bottom: 2px solid rgba(249, 249, 249, 0.5);
-    background-color: transparent;
-    outline: none;
-    color: #f9f9f9;
-    font-size: 1rem;
-    font-weight: bolder;
-    margin-top: -25px;
-}
-
-.container-input .input-data-info {
-    margin-top: 0px;
-    border-bottom: 2px solid rgba(249, 249, 249, 1);
-    transition: 1s linear;
-}
+@import "~@/assets/css/styleForm.css";
 
 .rec {
     display: flex;
@@ -96,19 +61,6 @@ export default {
     width: 90%;
     margin-top: 30px;
     position: absolute;
-}
-
-.social {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 80px;
-    position: absolute;
-}
-
-.social #google {
-    margin-left: 8px;
-    cursor: pointer;
 }
 
 #login {
