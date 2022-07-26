@@ -123,7 +123,7 @@ hr {
 
 @media screen and (max-width: 780px) {
   .center #msg {
-    margin-top: 190px;
+    margin-top: 250px;
     text-align: center;
     padding: 0 20px;
   }
@@ -133,7 +133,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 680px) {
   .center #msg {
     margin-top: 270px;
     text-align: center;

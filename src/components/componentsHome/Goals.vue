@@ -108,8 +108,4 @@ hr {
   background-color: #ccc;
   width: 100%;
 }
-
-@media screen and (max-width: 332px) {
-
-}
 </style>

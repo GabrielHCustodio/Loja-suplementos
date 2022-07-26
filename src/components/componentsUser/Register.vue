@@ -23,7 +23,7 @@
           <label class="label">Concordo com os <b>Termos de Uso</b></label>
         </div>
         <div class="social">
-          <p id="par">Se preferir, entre com uma rede social: </p>
+          <p id="par">Se preferir, cadastre-se com uma rede social: </p>
           <img id="google" src="https://img.icons8.com/ios-glyphs/30/000000/google-logo--v1.png"/>
         </div>
       </form>

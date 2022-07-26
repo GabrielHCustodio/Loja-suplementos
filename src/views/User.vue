@@ -11,7 +11,12 @@
       </div>
     </div>
 
-    <div class="right"></div>
+    <div class="right">
+      <div class="container-data">
+        <h1>GH Suplementos</h1>
+        <span>A maior refêrencia em nutrição esportiva do Brasil.</span>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -58,11 +63,10 @@ export default {
 }
 
 .center .left {
-  width: 55%;
+  width: 50%;
   height: 70%;
   display: flex;
   flex-direction: column;
-
 }
 
 .center .left .nav {
@@ -108,9 +112,25 @@ export default {
 }
 
 .center .right {
-  width: 35%;
-  height: 100%;
-  background-color: black;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 40%;
+  height: 70%;
+}
+
+.center .right .container-data {
+  color: #f9f9f9;
+  padding: 80px 35px 0 0;
+}
+
+.center .right .container-data h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.center .right .container-data span {
+  font-size: 1.2rem;
 }
 
 .container {
@@ -137,6 +157,21 @@ export default {
 
   100% {
     width: 85px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .center .left {
+    width: 100%;
+    align-items: center;
+  }
+
+  .center .left .nav {
+    margin-left: -310px;
+  }
+
+  .center .right {
+    display: none;
   }
 }
 </style>

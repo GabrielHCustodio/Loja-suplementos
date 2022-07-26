@@ -110,6 +110,7 @@ export default {
   flex-direction: column;
   border: 1px solid #0a0a0a;
   padding: 10px;
+  margin-top: -100px;
 }
 
 .right .sac .container-info {
@@ -130,7 +131,11 @@ export default {
 }
 
 .right .social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   margin-top: 20px;
+  width: 370px;
   border: 1px solid #0a0a0a;
   padding: 10px;
 }
@@ -161,6 +166,14 @@ export default {
   .left .central-de-atendimento #items .item:last-child {
     margin-bottom: 20px;
   }
+  
+  .right {
+    margin-bottom: 120px;
+  }
+
+  .right .sac {
+    margin-top: 0;
+  }
 
   .right .sac .container-info img {
     display: none;
@@ -175,7 +188,9 @@ export default {
     border: 1px solid #0a0a0a;
     padding: 10px;
     display: flex;
-    align-items: center;
+    width: 300px;
+    height: 80px;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
   }
