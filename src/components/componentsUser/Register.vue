@@ -106,4 +106,19 @@ export default {
     position: absolute;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social img {
+    margin-top: 10px;
+  }
+
+  #register {
+    margin-top: 80px;
+  }
+}
 </style>

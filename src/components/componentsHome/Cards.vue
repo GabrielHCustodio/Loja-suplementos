@@ -140,4 +140,12 @@ hr {
     padding: 0 20px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .center #msg {
+    margin-top: 340px;
+    text-align: center;
+    padding: 0 20px;
+  }
+}
 </style>

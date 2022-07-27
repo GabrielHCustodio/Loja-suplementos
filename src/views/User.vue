@@ -64,7 +64,7 @@ export default {
 
 .center .left {
   width: 50%;
-  height: 70%;
+  height: 50vh;
   display: flex;
   flex-direction: column;
 }
@@ -121,7 +121,7 @@ export default {
 
 .center .right .container-data {
   color: #f9f9f9;
-  padding: 80px 35px 0 0;
+  padding: 180px 100px 0 0;
 }
 
 .center .right .container-data h1 {
@@ -163,7 +163,9 @@ export default {
 @media screen and (max-width: 860px) {
   .center .left {
     width: 100%;
+    height: 100%;
     align-items: center;
+    margin-top: 150px;
   }
 
   .center .left .nav {
@@ -172,6 +174,12 @@ export default {
 
   .center .right {
     display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .center {
+    position: fixed;
   }
 }
 </style>

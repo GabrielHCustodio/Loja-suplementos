@@ -80,4 +80,22 @@ a {
     text-decoration: none;
     color: #f9f9f9;
 }
+
+@media screen and (max-width: 480px) {
+    .rec {
+        flex-direction: column;
+    }
+
+    .rec a {
+        margin-bottom: 15px;
+    }
+
+    .social {
+        margin-top: 130px;
+    }
+
+    #login {
+        margin-top: 200px;
+    }
+}
 </style>
