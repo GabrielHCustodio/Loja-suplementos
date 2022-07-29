@@ -27,7 +27,7 @@ export default createStore({
       {
         "id": 4,
         "name": "Multivitamínico",
-        "image": "004.png",
+        "image": "004.jpg",
         "description": ["Fonte de nutrientes antioxidantes","Auxilia a saúde do coração","Contrinui com o sistema imunológico"],
         "type": ["musculacao","massa muscular","qualidade de vida"],
       },
@@ -55,21 +55,21 @@ export default createStore({
       {
         "id": 8,
         "name": "Cafeína",
-        "image": "008.png",
+        "image": "008.jpg",
         "description": ["Construção muscular","Aumento da força muscular","Prevenção Da fadiga"],
         "type": ["musculacao","lutas","corrida","emagrecimento","massa muscular","energia"]
       },
       {
         "id": 9,
         "name": "Barra de proteína",
-        "image": "009.png",
+        "image": "009.jpg",
         "description": ["Fonte de fibras","Baixo índice glicêmico","Proteínas de alto valor biológico"],
         "type": ["musculacao","lutas","corrida","massa muscular"],
       },
       {
         "id": 10,
         "name": "Pasta de amendoim",
-        "image": "010.png",
+        "image": "010.webp",
         "description": ["Fonte de energia","Rico em nutrientes","Auxilia nas funções do sistema imunológico"],
         "type": ["musculacao","corrida","energia","qualidade de vida"]
       }
