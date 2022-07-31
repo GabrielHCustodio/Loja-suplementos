@@ -64,7 +64,7 @@ export default {
 
 .center .left {
   width: 50%;
-  height: 50vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
 }
