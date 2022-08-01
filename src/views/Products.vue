@@ -2,7 +2,6 @@
   <div>
     <header-pg />
     <container-cards />
-    <router-link to="/">Voltar</router-link>
   </div>
 </template>
 
